@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Team Collaboration Tool!');
+  res.send('Welcome to the Collaborative Team Tool!');
 });
 
 // Socket.io setup
