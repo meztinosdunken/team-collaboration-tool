@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Collaborative Team Tool! Version 1.0');
+  res.send('Welcome to the Collaborative Team Tool! Version 1.1 - Your go-to platform for seamless collaboration.');
 });
 
 // Socket.io setup
